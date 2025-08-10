@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator Project#2</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>Random Password Generator</h1>
+        <label>Enter number of characters for your password:</label>
+        <input type="number" min="1" id="characters">
+        <button onclick="handleGenerate()">Generate Password</button>
+        <button id="includeLowerCase" onclick="isLowerCase()">Include LowerCase</button>
+        <button id="includeUpperCase" onclick="isUpperCase()">Include UpperCase</button>
+        <button id="includeNumbers" onclick="isNumbers()">Include Numbers</button>
+        <button id="includeSymbols" onclick="isSymbols()">Include Symbols</button>
+        <p id="generatedPassword"></p>
+    </div>
+
+
+
+     <script src="script.js"></script>
+</body>
+</html>
